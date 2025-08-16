@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: MessagingService
+  cloud:
+    nacos:
+      server-addr: http://47.104.169.101:8848

@@ -1,0 +1,8 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: ContactService
+  cloud:
+    nacos:
+      server-addr: http://47.104.169.101:8848
