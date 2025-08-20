@@ -186,12 +186,18 @@ public class MessageInBoundHandler extends SimpleChannelInboundHandler<TextWebSo
 
 
     private boolean validateToken(String userUuid, String token) {
-        Claims claims = JwtUtil.parse(token);
-        String userID = claims.getSubject();
-
+        Claims claims = null;
+        try {
+            claims = JwtUtil.parse(token);
+        } catch (Exception e) {
+            log.info("token不合法!");
+        }
         //校验不通过直接返回false
+        String userID = null;
+        if (claims != null) {
+            userID = claims.getSubject();
+        }
         return userID != null && userID.equals(userUuid);
-
     }
 
 

@@ -5,11 +5,9 @@ import com.shanyangcode.infinitechat.messagingservice.data.sendMsg.SendMsgReques
 import com.shanyangcode.infinitechat.messagingservice.data.sendMsg.SendMsgResponse;
 import com.shanyangcode.infinitechat.messagingservice.feign.ContactServiceFeign;
 import com.shanyangcode.infinitechat.messagingservice.service.impl.MessageServiceImpl;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @ClassName ContactController
@@ -19,6 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("api/v1/")
+@Slf4j
 public class ContactController {
     @Autowired
     private ContactServiceFeign contactServiceFeign;
@@ -33,7 +32,8 @@ public class ContactController {
     }
 
     @PostMapping("chat/session")
-    public Result<SendMsgResponse> sendMessage(SendMsgRequest sendMsgRequest) {
+    public Result<SendMsgResponse> sendMessage(@RequestBody SendMsgRequest sendMsgRequest) {
+        log.info(sendMsgRequest.toString());
         SendMsgResponse response = messageService.sendMessage(sendMsgRequest);
         return Result.OK(response);
     }

@@ -4,6 +4,7 @@ import cn.hutool.core.lang.Snowflake;
 import cn.hutool.core.util.IdUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.shanyangcode.infinitechat.authenticationservice.constants.config.ConfigEnum;
 import com.shanyangcode.infinitechat.authenticationservice.constants.user.ErrorEnum;
 import com.shanyangcode.infinitechat.authenticationservice.constants.user.Register;
 import com.shanyangcode.infinitechat.authenticationservice.constants.verifyCode.VerifyCodeKeyStrategy;
@@ -19,11 +20,13 @@ import com.shanyangcode.infinitechat.authenticationservice.exception.CodeExcepti
 import com.shanyangcode.infinitechat.authenticationservice.exception.DataBaseException;
 import com.shanyangcode.infinitechat.authenticationservice.exception.LoginException;
 import com.shanyangcode.infinitechat.authenticationservice.exception.UserException;
+import com.shanyangcode.infinitechat.authenticationservice.mapper.UserMapper;
 import com.shanyangcode.infinitechat.authenticationservice.model.User;
 import com.shanyangcode.infinitechat.authenticationservice.service.UserService;
-import com.shanyangcode.infinitechat.authenticationservice.mapper.UserMapper;
 import com.shanyangcode.infinitechat.authenticationservice.utils.JwtUtil;
 import com.shanyangcode.infinitechat.authenticationservice.utils.NickNameGenerateUtil;
+import io.jsonwebtoken.Claims;
+import io.jsonwebtoken.Jwts;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -95,6 +98,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
 
         String phone = loginRequest.getPhone();
 
+
         //判斷用戶是否存在
         QueryWrapper<User> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("phone", phone);
@@ -118,6 +122,10 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         //header payload signature
         String token = JwtUtil.generate(user.getUserId());
         loginResponse.setToken(token);
+
+
+        Long userId = loginResponse.getUserId();
+        saveToken(userId, token);
 
         return loginResponse;
 
@@ -146,10 +154,26 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         //header payload signature
         String token = JwtUtil.generate(user.getUserId());
         loginCodeResponse.setToken(token);
-        
+
+
+        Long userId = loginCodeResponse.getUserId();
+        saveToken(userId, token);
+
 
         return loginCodeResponse;
 
+    }
+
+    //将redis保存到redis   userId:token:xxxxxxxxxxx
+    private void saveToken(Long userId, String token) {
+        // 解析 JWT，拿到 exp（秒级时间戳）
+        Claims claims = Jwts.parser()
+                .setSigningKey(ConfigEnum.TOKEN_SECRET_KEY.getText())
+                .parseClaimsJws(token)
+                .getBody();
+        String key = "user:token:" + userId;
+        redisTemplate.opsForValue().set(key, token);
+        redisTemplate.expireAt(key, claims.getExpiration());
     }
 
     @Override

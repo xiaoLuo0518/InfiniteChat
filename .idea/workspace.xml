@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab5de8d5-17d6-47f4-b0be-6ac2cd1fa0db" name="更改" comment="first">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Exception" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;xiaoLuo0518&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/xiaoLuo0518/InfiniteChat-new.git&quot;,
+    &quot;accountId&quot;: &quot;813587ae-2c60-436b-88d7-0b98218fec12&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="E:\JavaCode\maven\apache-maven-3.9.11" />
+        <option name="localRepository" value="E:\JavaCode\maven\repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="E:\JavaCode\maven\apache-maven-3.9.11\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="explicitlyEnabledProfiles" value="jdk-1.8" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="30HFdExsKj8SW33IaYGzLvPmauT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.AuthenticationServiceApplicationTests.testUserService.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.AuthenticationService [clean].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;找到数据库连接形参&quot;,
+    &quot;Notification.DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AuthenticationService.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.AuthenticationServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ContactServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GateWay.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GateWayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MessagingServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.RealTimeCommunicationService.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/shanyang_java/InfiniteChat/RealTimeCommunicationService/src/main/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.38275862&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;IntelliLang.Configuration&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ],
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL 方言&quot;: [
+      &quot;MySQL&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\shanyang_java\InfiniteChat\RealTimeCommunicationService\src\main\java" />
+      <recent name="D:\shanyang_java\InfiniteChat\RealTimeCommunicationService\src\main\java\com\shanyangcode\infinitechat\realtimecommunicationservice\constants\config" />
+      <recent name="D:\shanyang_java\InfiniteChat\GateWay\src\main\resources" />
+      <recent name="D:\shanyang_java\InfiniteChat\AuthenticationService\src\main\java\com\shanyangcode\authenticationservice\data\user\register" />
+      <recent name="D:\shanyang_java\InfiniteChat" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\24629\Desktop\InfiniteChat\MessagingService\src\main\java\com\shanyangcode\infinitechat\messagingservice\conf" />
+      <recent name="C:\Users\24629\Desktop\InfiniteChat\MessagingService\src\main\resources\mapper" />
+      <recent name="C:\Users\24629\Desktop\InfiniteChat\MessagingService\src\main\resources" />
+      <recent name="D:\shanyang_java\InfiniteChat\RealTimeCommunicationService\src\main" />
+      <recent name="D:\shanyang_java\InfiniteChat\RealTimeCommunicationService\src\main\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.shanyangcode.infinitechat.authenticationservice" />
+      <recent name="com.shanyangcode.infinitechat" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shanyangcode.infinitechat.messagingservice.constants" />
+      <recent name="com.shanyangcode.infinitechat.realtimecommunicationservice.Utils.JwtUtil" />
+      <recent name="com.shanyangcode.authenticationservice.data.user.login" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MessagingServiceApplication">
+    <configuration name="AuthenticationService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="AuthenticationService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shanyangcode.infinitechat.authenticationservice.AuthenticationServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ContactService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shanyangcode.infinitechat.contactservice.ContactServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shanyangcode.infinitechat.contactservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateWay" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="GateWay" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shanyangcode.infinitechat.gateway.GateWayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessagingServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="MessagingService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shanyangcode.infinitechat.messagingservice.MessagingServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shanyangcode.infinitechat.messagingservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RealTimeCommunicationService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="RealTimeCommunicationService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shanyangcode.infinitechat.realtimecommunicationservice.RealTimeCommunicationServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.RealTimeCommunicationService" />
+      <item itemvalue="Spring Boot.GateWay" />
+      <item itemvalue="Spring Boot.AuthenticationService" />
+      <item itemvalue="Spring Boot.ContactServiceApplication" />
+      <item itemvalue="Spring Boot.MessagingServiceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MessagingServiceApplication" />
+        <item itemvalue="Spring Boot.ContactServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="ab5de8d5-17d6-47f4-b0be-6ac2cd1fa0db" name="更改" comment="" />
+      <created>1753276676511</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753276676511</updated>
+      <workItem from="1753276677677" duration="1417000" />
+      <workItem from="1753323197444" duration="3160000" />
+      <workItem from="1753331398650" duration="676000" />
+      <workItem from="1753345544655" duration="8045000" />
+      <workItem from="1753409790318" duration="5968000" />
+      <workItem from="1753439729153" duration="9430000" />
+      <workItem from="1753495832558" duration="8245000" />
+      <workItem from="1753526247306" duration="9363000" />
+      <workItem from="1753578501301" duration="8691000" />
+      <workItem from="1753587468111" duration="1008000" />
+      <workItem from="1753610093594" duration="229000" />
+      <workItem from="1753610333783" duration="10373000" />
+      <workItem from="1753666269081" duration="5356000" />
+      <workItem from="1753689491210" duration="891000" />
+      <workItem from="1753690437330" duration="4220000" />
+      <workItem from="1753698128390" duration="4871000" />
+      <workItem from="1753753618171" duration="6334000" />
+      <workItem from="1753782004157" duration="9205000" />
+      <workItem from="1753795980966" duration="1912000" />
+      <workItem from="1753840267831" duration="6603000" />
+      <workItem from="1753862476866" duration="5759000" />
+      <workItem from="1753871390276" duration="5749000" />
+      <workItem from="1753925493479" duration="5668000" />
+      <workItem from="1753954639535" duration="684000" />
+      <workItem from="1753956395141" duration="659000" />
+      <workItem from="1754011546417" duration="9623000" />
+      <workItem from="1754021496250" duration="691000" />
+      <workItem from="1754022555525" duration="390000" />
+      <workItem from="1754023012240" duration="6000" />
+      <workItem from="1754226111654" duration="1782000" />
+      <workItem from="1754649511887" duration="672000" />
+      <workItem from="1754749568131" duration="643000" />
+      <workItem from="1754879250659" duration="9405000" />
+      <workItem from="1755052641460" duration="5188000" />
+      <workItem from="1755088144421" duration="5133000" />
+      <workItem from="1755137642609" duration="4028000" />
+      <workItem from="1755141720736" duration="48000" />
+      <workItem from="1755141784372" duration="592000" />
+      <workItem from="1755142394992" duration="1140000" />
+      <workItem from="1755227523796" duration="550000" />
+      <workItem from="1755228154320" duration="1518000" />
+      <workItem from="1755229691020" duration="14438000" />
+      <workItem from="1755265365002" duration="3470000" />
+      <workItem from="1755313770982" duration="13093000" />
+      <workItem from="1755336091895" duration="7939000" />
+      <workItem from="1755433323878" duration="6515000" />
+      <workItem from="1755487638071" duration="6052000" />
+      <workItem from="1755522058924" duration="8913000" />
+      <workItem from="1755572887863" duration="644000" />
+      <workItem from="1755573676306" duration="8417000" />
+      <workItem from="1755608384170" duration="113000" />
+      <workItem from="1755654384906" duration="11235000" />
+    </task>
+    <task id="LOCAL-00001" summary="first">
+      <option name="closed" value="true" />
+      <created>1755142731433</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755142731433</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

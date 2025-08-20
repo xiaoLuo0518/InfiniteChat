@@ -6,9 +6,10 @@ import com.shanyangcode.infinitechat.realtimecommunicationservice.data.receiveMe
 import com.shanyangcode.infinitechat.realtimecommunicationservice.service.RcvMsgService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
-
-import javax.validation.Valid;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @ClassName RcvMessageController
@@ -25,8 +26,8 @@ public class RcvMessageController {
 
 
 
-    @PostMapping()
-    public Result<ReceiveMessageResponse> receiveMessage(@Valid @RequestBody ReceiveMessageRequest request) {
+    @PostMapping("/user")
+    public Result<ReceiveMessageResponse> receiveMessage( @RequestBody ReceiveMessageRequest request) {
         ReceiveMessageResponse response = rcvMsgService.receiveMessage(request);
         return Result.OK(response);
     }

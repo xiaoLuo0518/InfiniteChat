@@ -12,6 +12,6 @@ import org.apache.ibatis.annotations.Select;
  * @Date 2025/8/15 21:10
  */
 public interface FriendMapper extends BaseMapper<Friend> {
-    @Select("select * from friend where user_id=#{userId} and frien_id ==#{friendId} and status = 1")
+    @Select("select * from friend where user_id=#{userId} and friend_id =#{friendId} and status = 1")
     Friend selectFriendship(@Param("userId") Long userId, @Param("friendId") Long friendId);
 }

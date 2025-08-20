@@ -14,8 +14,8 @@ import lombok.experimental.Accessors;
 public class SendMsgRequest {
     private Long sessionId;
     private Long sendUserId;
-    private Integer sessionType;
-    private Integer type;
     private Long receiverUserId;
+    private Integer type;
+    private Integer sessionType;
     private Object data;
 }
